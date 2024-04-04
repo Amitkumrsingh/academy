@@ -1604,7 +1604,7 @@ margin-bottom: 8px;
     .navbar{
         display: flex;
         flex-direction: column;
-        padding:  10px 20px;
+        padding: 10px 0px 10px 40px;
         background: #FFF;
     }
 
@@ -1656,7 +1656,7 @@ margin-bottom: 8px;
 		text-align: end;
 		margin-top: 23px;
 		margin-bottom:0px;
-        margin-left: 12px;
+        margin-left: 0px;
 	}
 
     .bar {
