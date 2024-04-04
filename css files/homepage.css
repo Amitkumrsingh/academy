@@ -2263,6 +2263,9 @@ margin-bottom: 8px;
     font-weight: 500;
     line-height: normal;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 12px;
 
 }
 
