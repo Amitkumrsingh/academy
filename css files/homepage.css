@@ -1716,7 +1716,7 @@ margin-bottom: 8px;
 
     .sticky-mob .mobileonly{
         margin: 0;
-        padding: 9px 20px 0px 36%;
+        padding: 9px 20px 0px 30%;
     }
 
     .sticky-mob .menu-toggle {
@@ -2268,7 +2268,7 @@ margin-bottom: 8px;
 .offer-mobile-card button{
     border-radius: 28px;
     background: #000;
-    padding: 13px 27px;
+    padding: 13px 20px;
     border: none;
     margin: 0px 80px;
 }
@@ -2276,7 +2276,7 @@ margin-bottom: 8px;
 .offer-mobile-card button a{
     border-radius: 28px;
     background: #000;
-    padding: 13px 10px;
+    padding: 13px 0px;
     color: #FFF;
     font-family: Montserrat;
     font-size: 17px;
