@@ -1958,6 +1958,7 @@ margin-bottom: 8px;
     width: 278px;
     height: 50px;
     flex-shrink: 0;
+    margin-bottom: 23px;
 
 }
 
@@ -2119,7 +2120,8 @@ margin-bottom: 8px;
 
 .get-highly-effective-btn-mobile{
     text-align: center;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px 48px 0px;
+
 
 }
 
