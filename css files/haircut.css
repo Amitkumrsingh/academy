@@ -1,0 +1,1937 @@
+
+    /* header  style start*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   font-family: "Montserrat", sans-serif;
+ }
+
+
+ @font-face {
+  font-family: Luthon Southard Script;
+  src: url('/luthon_southard_script/Luthon\ Southard\ Script.ttf')  format('truetype');
+}
+
+
+
+
+ .header {
+   background-color: #FFF;
+   color: #000;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 10000000;
+   margin-top: -11px;
+ }
+
+ .sticky{
+   position: fixed;
+   top:0;
+   left:0;
+   right:0;
+   margin: 0;
+   padding: 0;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+   box-shadow: 0 8px 6px -6px black;
+   margin-top: -10px;
+ }
+
+ .sticky .logo{
+    padding: 0;
+    margin: 0;
+ }
+
+.sticky .logosection img{
+   padding-top: 18px;
+   padding-bottom: 5px;
+   width: 164px;
+    height: 60.368px;
+    border-radius: 3px;
+    margin: 0px 0px 0px 50px;
+
+}
+.sticky .menu{
+    padding: 0px 50px 0px 0px;
+    margin: 0px;
+}
+
+.sticky .menu li{
+   padding: 28px 16px 20px 16px;
+    margin: 0px;
+}
+
+.sticky .reach{
+  display: none;
+ }
+
+ .sticky .menu li:nth-child(1){
+    color: #000;
+    border-radius: 0px 0px 5px 5px;
+    background: #EEC044;
+    }
+
+
+ .sticky .menu li:nth-child(1) a{
+     color: #000;
+ }
+
+ .sticky .menu li:nth-child(6) a{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 14px;
+    background: #033832;
+    padding: 5px 13px;
+ }
+
+
+
+
+
+.logosection{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.logosection img {
+	margin: 16px 0px 10px 70px;
+    padding-top: 6px;
+    border-radius: 3px;
+    width: 218px;
+    height: auto;
+}
+
+.logo-mobile-text{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0px 0px 12px;
+
+}
+.logo-mobile-text p:nth-child(1){
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 6px;
+
+}
+.logo-mobile-text p:nth-child(2){
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
+ .logo {
+   color: #000;
+ }
+
+
+ .text {
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   gap: 7px;
+ }
+
+.reach{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+
+ .menu {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px 50px 0px 0px;
+   display: flex;
+ }
+
+ .menu .active{
+     background-color: #FCDA00;
+ }
+
+ .menu li {
+   padding: 61px 16px 16px 16px;
+ }
+
+ .menu li:nth-child(6) a{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 14px;
+    background: #033832;
+    padding: 5px 13px;
+
+
+ }
+
+
+ .menu li:nth-child(1){
+   border-radius: 0px 0px 5px 5px;
+    background: #EEC044;
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+ }
+ .menu li:nth-child(1) a{
+    color: #000;
+ }
+
+
+
+ .menu li a {
+   color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+ }
+
+
+
+
+
+ /* header style end */
+
+
+
+
+ .left-form{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: right;
+    padding-top: 27px;
+    padding-right: 140px;
+ }
+
+
+ /* nift landing start */
+.nift-landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 20px 0px 20px;
+    border-radius: 25px;
+    background: #E9E9E6;
+
+}
+
+.text-haircut{
+    text-align: left;
+    padding: 125px 0px 55px 145px;
+}
+
+.text-haircut p:nth-child(1){
+    color: #CF5500;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 76px; /* 95% */
+    margin-bottom: 27px;
+
+}
+
+.text-haircut p:nth-child(2){
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.grab-text{
+    margin-left: 0px;
+
+}
+
+
+
+
+.grab-text p:nth-child(1){
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 21px;
+    margin-top: 11px;
+}
+
+
+
+ .career-counseling-container-form {
+	display: flex;
+	flex-direction: row;
+	background-color: #E9E9E6;
+    width: 264px;
+    margin:0px 0px 0px 0px;
+}
+
+.career-counseling-form {
+	display: flex;
+	flex-direction: column;
+    width: 264px;
+    height: auto;
+    flex-shrink: 0;
+
+}
+
+.career-counseling-container-footer-form {
+	border-radius: 25px;
+	padding: 15px 10px 10px 5px;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+	background-color: #387A5B;
+
+
+}
+
+.career-counseling-container .footer-form button:hover {
+		background-color: #387A5B;
+		color: #000;
+		border-bottom: 4px solid #fff
+	}
+
+    /* .course-options{
+    padding: 5px 320px 5px 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    background-color: #ffffff !important;
+    color: #353434 !important;
+    border: 2px solid #bcbcbc;
+    } */
+
+
+.career-counseling-container-form .right-div {
+	justify-content: center;
+	align-items: center;
+	text-align: center
+}
+
+.career-counseling-container-form input[type=text],
+.career-counseling-container-form select {
+    padding-left: 10px;
+	color: #707070;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+	margin-bottom: 12px;
+	border: none;
+	border-radius: 10px;
+    background: #FFF;
+    width: 234px;
+    height: 37px;
+    flex-shrink: 0;
+}
+
+.career-counseling-form::placeholder {
+	color: #777474
+}
+
+.career-counseling-container-form button {
+    margin-top: 5px;
+	background-color: #000;
+	color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+	cursor: pointer;
+	border-radius: 10px;
+	border: none;
+    width: 220px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.career-counseling-container-form button:hover {
+		background-color: #fff;
+		color: #000;
+	}
+
+
+/* Nift landing end */
+
+
+/* Prices Start */
+
+.prices{
+    padding: 36px 210px 62px 290px;
+}
+
+.prices p{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 181.25% */
+}
+
+
+.pricing-cards{
+    padding: 0px 150px 0px 150px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0px 25px 68px 0px;
+
+}
+
+.pricing-card p:nth-child(1){
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.pricing-card p:nth-child(2){
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    margin-bottom: 36px;
+}
+
+.pricing-card p:nth-child(3){
+    color: #387A5B;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.pricing-card button{
+    border-radius: 28px;
+    background: #000;
+    width: 115px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.pricing-card button a{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    border-radius: 28px;
+    background: #000;
+    padding: 12px 18px;
+    width: 130px;
+    height: 43px;
+    flex-shrink: 0;
+}
+
+.pricing-card button a:hover{
+    color: #000;
+    background-color: #EEC044;
+
+}
+
+.hair-dresser{
+    padding:0px 123px 0px 123px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.hair-dresser img{
+    border-radius: 25px;
+}
+
+/* Roarring ranks start */
+
+.roarring-ranks{
+    display: flex;
+    flex-direction: row;
+    margin: 70px 120px 10px 120px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.tirr1{
+    margin-top: -120px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 190px;
+    border-radius: 24px;
+    background: #F3F3F3;
+    flex-shrink: 0;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0.5px;
+    padding: 5px 0px;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover{
+    box-shadow: 0 0 20px rgba(212, 212, 212, 2.0);
+    z-index: 1000000;
+}
+
+.card img{
+    width: 46px;
+    height: 46px;
+    margin: 20px 0px 10px 0px;
+
+}
+
+.card h1{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.card p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tirr2{
+    margin-top: 120px;
+}
+
+/* Roarring rank end */
+
+
+
+
+
+
+@keyframes shake {
+    /* 0% { transform: translateX(0); }
+    10%, 90% { transform: translateX(-5px); }
+    20%, 80% { transform: translateX(5px); }
+    30%, 50%, 70% { transform: translateX(-5px); }
+    40%, 60% { transform: translateX(5px); }
+    100% { transform: translateX(0); } */
+     0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+  }
+
+  .btn {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .btn.shake {
+    animation: shake 0.8s ease-in-out infinite;
+  }
+
+
+
+
+
+/* Happy words */
+
+.happy-words{
+    display: flex;
+    flex-direction: row;
+    border-radius: 54px;
+    background: linear-gradient(128deg, #EEFAF5 58.08%, #FFF6BF 91.27%);
+     margin: 198px 20px 20px 20px;
+}
+
+.happy-words-text{
+    margin:76px 10px 40px 100px;
+}
+
+.happy-words-text h1{
+    color: #004F5F;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.happy-words-text h4{
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 18px 0px 22px;
+}
+
+.happy-words-text p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 181.25% */
+}
+
+.happy-words-text p strong{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+
+.student{
+    margin-top: 16px;
+    display: flex;
+}
+
+
+
+
+.name{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.name h3{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.name p{
+    color: #231F20;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.happy-word-image img{
+    margin-top: -80px;
+}
+
+
+
+
+.map{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 40px 170px 160px 170px;
+    border-radius: 36px;
+    background: #012D36;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-txt{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.map-txt h2{
+   color: #FFF;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #FFF;
+    font-family: "Luthon Southard Script";
+    font-size: 43.07px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.map-txt h1{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #FFDF86 0%, #FFF3D2 75.5%, #AF8305 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.map-txt p{
+    color: #FFF;
+    font-family: Avenir;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.map-txt button{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    flex-shrink: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 184px;
+    height: 45px;
+}
+
+.map-txt button a{
+    text-decoration: none;
+    color: #000;
+    width: 184px;
+    height: 45px;
+    padding: 12px 17.5px;
+    background: #FFF;
+    border: none;
+}
+
+.map-txt button a:hover{
+    background: #000;
+    color: #FFF;
+    padding: 12px 17.6px;
+}
+
+.map-below-form{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background:#F3F3F3;
+    border-radius: 28px;
+    border: 2px solid #E9D570;
+    box-shadow: drop-shadow(0px 4px 39px rgba(0, 0, 0, 0.10));
+    margin: -140px 300px 30px 300px;
+}
+
+.input-div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.input-box input{
+    border: none;
+    background: #FFF;
+    padding: 15px 20px;
+    margin: 10px 10px;
+    color: #4D4D4D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid #9D9D9D;
+
+}
+
+.input-box input:focus{
+    outline: none!important;
+    border-bottom: 1px solid #FCDA00;
+}
+
+textarea:focus{
+    outline: none!important;
+    border-bottom: 1px solid #FCDA00!important;
+}
+
+.submit-div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+
+.submit-div h1{
+    color: #4D4D4D;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.submit-div img{
+    margin: 0px 10px;
+}
+
+.submit-div button{
+    background: #000;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 50px;
+}
+.submit-div button:hover{
+    background: #FCDA00;
+    color: #000;
+}
+
+
+
+/* uhhu txt */
+.uhhu-txt p{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 79px;
+}
+
+.artitude{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 160px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.artitude-txt{
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.artitude-txt h2{
+    color: #012D36;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 1px;
+    margin-left: 30px;
+}
+
+.artitude-txt h1{
+    color: #012D36;
+    font-family: Montserrat;
+    font-size: 97px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+.artitude-txt h1 span{
+    color: #CF5500;
+    font-family: Montserrat;
+    font-size: 97px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.artitude-txt p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Artitude end */
+
+
+/* Footer start*/
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    border-radius: 34px 34px 0px 0px;
+    background: #012D36;
+    padding: 49px 70px 21px 103px;
+    gap: 250px;
+}
+
+
+
+.footer-logo{
+
+    border-radius: 10px;
+
+}
+
+.footer-logo img{
+    width: 263px;
+height: 98px;
+flex-shrink: 0;
+}
+
+
+.logo-txt{
+    width: 279px;
+    height: 203px;
+    flex-shrink: 0;
+}
+.logo-txt p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+}
+
+.footer-div-2 .social {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    margin: 20px 0px;
+}
+
+.footer-div-2 h3{
+    color: #D4D5D9;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 13px */
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+
+}
+
+.footer-div-2 p:nth-of-type(1){
+    color: #D4D5D9;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.4px;
+    margin-bottom: 8px;
+
+}
+
+.footer-div-2 p:nth-of-type(1) a{
+    color: #D4D5D9;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.4px;
+    text-decoration: none;
+
+}
+
+.footer-div-2 p:nth-of-type(2){
+    color: #D4D5D9;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    margin-bottom: 25px;
+}
+
+.footer-div-2 p:nth-of-type(3){
+    color: #D4D5D9;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    margin-bottom: 23px;
+}
+
+.footer-div-2 p:nth-of-type(4){
+    color: #D4D5D9;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 24px */
+letter-spacing: -0.4px;
+margin-bottom: 8px;
+}
+
+.footer-div-3{
+    display: flex;
+    flex-direction: column;
+    gap: 202px;
+}
+
+.footer-div-3 p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 13px */
+    margin-left: 35px;
+}
+
+/* Footer end */
+
+/* Modal */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.modal-dialog {
+    margin: 50px auto;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.modal-header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.modal-body form {
+    margin-bottom: 20px;
+}
+
+.modal-body p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+ @media screen and (min-width: 601px) {
+    .nift-landing-mobile, .get-highly-effective-mobile, .ranks-mobile-cards, .rankers-mobile, .why-mad-school-mobile, .why-mad-btn-mobile, .offer-mobile, .artitude-mobile,.footer-mobile, .sticky .logo .header-mobile, .navbar,.prices-mob,.pricing-cards-mob{
+        display: none;
+    }
+    .course-menu-angle-down{
+    display: none;
+}
+ }
+
+ @media screen and (max-width: 600px) {
+
+    .header, .nift-landing, .get-highly-effective, .roarring-ranks, .ranks-txt, .offer, .why-madschool,  .happy-words, .skin-and-hair-test, .inhouse-lib, .map, .map-below-form, .uhhu-txt, .artitude, .footer, .prices, .pricing-cards,.hair-dresser{
+        display: none;
+    }
+
+.nift-landing-mobile, .get-highly-effective-mobile, .ranks-mobile-cards, .rankers-mobile, .why-mad-school-mobile, .why-mad-btn-mobile, .let-go-mad-mobile, .celebrating-11th-year-mobile, .free-bonus-kit-mobile, .pick-your-batch-mobile, .other-course-design-mobile, .map-mobile, .map-below-form-mobile, .come-join-us-mobile,.sticky .logo .header-mobile, .social-media-mobile, .footer-back-mobile,.navbar{
+        overflow-x: hidden;
+    }
+
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px 10px 0px;
+        background: #FFF;
+    }
+
+
+    .navbar-not-fixed{
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+    }
+    .navbar-logo img{
+        width: 134px;
+        height: 49.325px;
+        flex-shrink: 0;
+         margin-left: 40px;
+    }
+
+
+    .navbar-txt{
+        display: flex;
+        flex-direction: column;
+        color: #000;
+        padding: 10px 0px 4px 0px;
+
+    }
+
+    .navbar-txt p:nth-child(1){
+        color: #000;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .navbar-txt p:nth-child(2) a{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+
+    .menu-toggle {
+		display: block;
+		cursor: pointer;
+		justify-content: end;
+		align-items: end;
+		text-align: end;
+		margin-top: 23px;
+		margin-bottom:0px;
+        margin-left: 0px;
+	}
+
+    .bar {
+		width: 30px;
+		height: 3px;
+		background-color: #000;
+		margin: 5px 0
+	}
+
+
+    .mobileonly {
+         position: -webkit-sticky; /* For Safari */
+        position: sticky; /* For most modern browsers */
+        top: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 10px;
+    }
+
+    .sticky-mob{
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        margin: 0;
+        padding: 0;
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        -moz-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
+        z-index: 100000000;
+        }
+
+
+
+    .sticky-mob .navbar-txt p:nth-child(1){
+        display: none;
+    }
+    .sticky-mob .navbar-txt p:nth-child(2){
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .sticky-mob .navbar-logo img{
+        padding: 3px 9px;
+        width: 90px;
+        height: 33.129px;
+        flex-shrink: 0;
+        margin: 0;
+    }
+
+    .sticky-mob .navbar-not-fixed {
+        gap: 0px;
+    }
+
+    .sticky-mob .mobileonly{
+        margin: 0;
+        padding: 9px 20px 0px 30%;
+    }
+
+    .sticky-mob .menu-toggle {
+		display: block;
+		cursor: pointer;
+		justify-content: end;
+		align-items: end;
+		text-align: end;
+		margin-top: 0px;
+		margin-bottom:0px;
+        margin-left: 0px;
+	}
+
+    .menu-mobile {
+            display: none;
+            padding: 0;
+            background-color: #FFF
+        }
+
+    .menu-mobile.active {
+		display: flex;
+		background-color: #FFF;
+		color: #000;
+		flex-direction: column;
+		/* width: 100%; */
+		padding: 30px;
+		align-items: left;
+		top: 30px;
+		bottom: 200px;
+		left: 0;
+		right: 0;
+        margin-left: 0;
+	}
+
+
+    .menu-toggle.active {
+		background-color: transparent
+	}
+
+	.menu-toggle.active .bar:nth-child(2) {
+		opacity: 0
+	}
+
+	.menu-toggle.active .bar:first-child {
+		transform: translateY(8px) rotate(45deg)
+	}
+
+	.menu-toggle.active .bar:nth-child(3) {
+		transform: translateY(-8px) rotate(-45deg)
+	}
+
+    .menu-mobile li{
+        margin: 15px 0 0;
+        padding: 0 0 15px;
+        border-bottom: 1px solid #4f4f4f;
+        list-style: none;
+    }
+
+
+    .menu-mobile li a {
+    color: #000;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+  .toggle-bar {
+    display: block; /* Show toggle bar for mobile */
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .toggle-bar .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+  }
+
+
+
+
+
+
+
+/* navbar end */
+
+
+    .nift-landing-mobile{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 22px;
+        background: #E9E9E6;
+    }
+
+    .grab-text-mobile{
+        padding-top: 33px;
+    }
+
+    .grab-text-mobile p:nth-child(1){
+        color: #CF5500;
+        text-align: right;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: 50px; /* 104.167% */
+        padding-right: 39px;
+        padding-bottom: 13px;
+    }
+
+
+    .grab-text-mobile p:nth-child(2){
+        color: #000;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-right: 39px;
+        text-align: right;
+        margin-bottom: 30px;
+    }
+
+    .grab-text-mobile img{
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+       margin-top: 25px;
+    }
+
+
+
+
+    .need-a-friend-mobile p{
+       color: #000;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 33px;
+    }
+
+
+.career-counseling-container-form-mobile {
+	display: flex;
+	flex-direction: row;
+	background-color: #E9E9E6;
+    margin:-5px 10px 20px 10px ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.career-counseling-form-mobile {
+	display: flex;
+	flex-direction: column;
+    width: 344px;
+    height: auto;
+    flex-shrink: 0;
+
+}
+
+.career-counseling-container-footer-form-mobile {
+	border-radius: 25px;
+	padding: 15px 10px 10px 5px;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+	background-color: #387A5B;
+
+
+}
+
+.career-counseling-container-mobile .footer-form button:hover {
+		background-color: #387A5B;
+		color: #000;
+		border-bottom: 4px solid #fff
+	}
+
+    /* .course-options{
+    padding: 5px 320px 5px 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    background-color: #ffffff !important;
+    color: #353434 !important;
+    border: 2px solid #bcbcbc;
+    } */
+
+
+.career-counseling-container-form-mobile {
+	justify-content: center;
+	align-items: center;
+	text-align: center
+}
+
+.career-counseling-container-form-mobile input[type=text],
+.career-counseling-container-form-mobile select {
+    padding-left: 10px;
+	color: #707070;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+	margin-bottom: 12px;
+	border: none;
+	border-radius: 10px;
+    background: #FFF;
+    width: 296px;
+    height: 52px;
+    flex-shrink: 0;
+}
+
+.career-counseling-form-mobile::placeholder {
+	color: #777474
+}
+
+.career-counseling-container-form-mobile button {
+    margin-top: 12px;
+	background-color: #033832;
+	color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+	cursor: pointer;
+	border-radius: 10px;
+	border: none;
+    width: 278px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-bottom: 23px;
+
+}
+
+.career-counseling-container-form-mobile button:hover {
+		background-color: #fff;
+		color: #000;
+	}
+
+
+
+/* ranks mobile start */
+
+.ranks-mobile-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.rank-mobile-card{
+    border-radius: 24px;
+    background: #F3F3F3;
+    margin: 10px;
+    padding: 20px 10px;
+}
+
+.rank-mobile-card img{
+    width: 46px;
+    height: 46px;
+    margin-bottom: 15px;
+}
+
+
+.rank-mobile-card h1{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+     margin-bottom: 15px;
+}
+
+.rank-mobile-card p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+     margin-bottom: 15px;
+}
+
+
+.rankers-mobile{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-mobile{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* prices mob */
+
+.prices-mob{
+    padding: 16px 30px 40px 30px;
+}
+
+.prices p{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 181.25% */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pricing-cards-mob{
+    padding: 0px 30px 0px 30px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.pricing-card-mob{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0px 25px 68px 0px;
+
+}
+
+.pricing-card-mob p:nth-child(1){
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.pricing-card-mob p:nth-child(2){
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    margin-bottom: 36px;
+}
+
+.pricing-card-mob p:nth-child(3){
+    color: #387A5B;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.pricing-card-mob button{
+    border-radius: 28px;
+    background: #000;
+    width: 115px;
+    height: 40px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.pricing-card-mob button a{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    border-radius: 28px;
+    background: #000;
+    padding: 12px 18px;
+    width: 130px;
+    height: 43px;
+    flex-shrink: 0;
+}
+
+.pricing-card-mob button a:hover{
+    color: #000;
+    background-color: #EEC044;
+
+}
+
+.hair-dresser-mob{
+    padding:0px 123px 0px 123px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.hair-dresser-mob img{
+    border-radius: 25px;
+}
+
+
+
+.artitude-mobile{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 36px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.artitude-txt-mobile{
+    padding-top: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.artitude-txt-mobile h2{
+    color: #012D36;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 5px;
+
+}
+
+.artitude-txt-mobile h1{
+    color: #012D36;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+
+.artitude-txt-mobile h1 span{
+   color: #CF5500;
+   font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.artitude-txt-mobile p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 19px;
+}
+/* Artitude end */
+
+
+/* Footer start*/
+
+.footer-mobile{
+    display: flex;
+    flex-direction: column;
+    border-radius: 34px 34px 0px 0px;
+    background: #012D36;
+    padding: 40px 50px 30px 40px;
+    gap: 10px;
+    margin-top: -5px;
+}
+
+
+
+.footer-logo-mobile{
+    border-radius: 10px;
+}
+
+.footer-logo-mobile img{
+   width: 198px;
+    height: 74px;
+}
+
+
+.logo-txt-mobile p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.footer-div-2-mob .social-m {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    margin: 20px 0px;
+}
+
+.footer-div-2-mob h3{
+    color: #D4D5D9;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 13px */
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    margin-top: 8px;
+
+}
+
+.footer-div-2-mob p:nth-of-type(1){
+    color: #D4D5D9;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.4px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+
+}
+
+.footer-div-2-mob p:nth-of-type(1) a{
+    color: #D4D5D9;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.4px;
+    text-decoration: none;
+
+}
+
+.footer-div-2-mob p:nth-of-type(2){
+    color: #D4D5D9;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    margin-bottom: 25px;
+
+}
+
+.footer-div-2-mob p:nth-of-type(3){
+    color: #D4D5D9;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    margin-bottom: 23px;
+}
+
+.footer-div-2-mob p:nth-of-type(4){
+    color: #D4D5D9;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.4px;
+    margin-bottom: 8px;
+}
+
+.footer-div-3-mob{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.footer-div-3-mob p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+/* Footer end */
+
+
+}
+
+
+@media screen and (min-width:1600px) {
+    /* .nift-landing, .get-highly-effective, .roarring-ranks, .ranks-txt, .ranks, .rankers, .ranker-txt-and-btn, .quote-line, .three-img, .why-madschool, .quote-line-full, .let-go-mad, .happy-words, .celebrating-11th-year,.learn-in-coaching, .free-bonus-kit, .bonus-cards, .bonus-card-btn, .quote-line-revision, .pick-your-batch, .form, .other-design, .map, .map-below-form, .come-join-us, .footer-back, .social-media{
+        margin: 0px 100px 0px 100px;
+        padding: 20px 0px; } */
+
+
+
+        .left-form{
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            align-items: right;
+            padding-top: 30px;
+        }
+
+        /* .nift-landing {
+            background: url("../bigsize-assets/Layer_1 (2).webp") left bottom/70vh no-repeat #E9E9E6;
+            min-height: 830px;
+            padding: 0px 100px 10px 100px;
+            display: flex;
+            flex-direction: row;
+            margin: 0px 20px 0px 20px;
+            border-radius: 35px;
+
+        }
+        .grab-text{
+            margin-left: 150px;
+        }
+        .career-counseling-container-form {
+            margin: 20px 0 20px 300px;
+        }
+
+        .the-artist p:nth-child(1){
+            margin-top: 37px;
+            font-size: 92px;
+            margin-bottom: 15px;
+        }
+
+        .the-artist p:nth-child(2){
+            font-size: 18px;
+            margin-bottom: 24px;
+        }
+
+
+        .grab-text p:nth-child(1){
+            font-size: 14px;
+            margin-bottom: 30px;
+            margin-top: 24px;
+        } */
+
+
+}
