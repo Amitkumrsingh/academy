@@ -555,6 +555,7 @@ font-size: 15px;
 font-style: normal;
 font-weight: 500;
 line-height: 21px; /* 140% */
+margin-bottom: 10px;
 }
 
 .almuni-bullet-point ul li span{
