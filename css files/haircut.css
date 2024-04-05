@@ -389,6 +389,7 @@ text-decoration: none;
     width: 220px;
     height: 40px;
     flex-shrink: 0;
+    margin-bottom: 10px;
 }
 
 .career-counseling-container-form button:hover {
