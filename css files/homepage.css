@@ -1612,6 +1612,11 @@ margin-bottom: 8px;
     background: #012D36;
 }
 
+.modal-body input:focus{
+    outline: none!important;
+    border-bottom: 1px solid #FCDA00;
+}
+
 .letstalk-btn-submit {
     padding: 8px 16px;
     background-color: #FFF;
@@ -1661,18 +1666,17 @@ margin-bottom: 8px;
     /* modal */
 
     .modal-header h1{
-    font-size: 40px;
-    margin-top: 60px;
+        font-size: 40px;
+        margin-top: 60px;
     }
 
     .close-btn {
-
-    top: 20px;
-    right: 20px;
-    font-size: 50px;
-    font-weight: 200;
-
+        top: 20px;
+        right: 20px;
+        font-size: 50px;
+        font-weight: 200;
     }
+
 
     .navbar{
         display: flex;
