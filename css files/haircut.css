@@ -1192,6 +1192,11 @@ margin-bottom: 8px;
     color: #FFF !important;
 }
 
+.modal-body p a{
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+}
 
  @media screen and (min-width: 601px) {
     .nift-landing-mobile, .get-highly-effective-mobile, .ranks-mobile-cards, .rankers-mobile, .why-mad-school-mobile, .why-mad-btn-mobile, .offer-mobile, .artitude-mobile,.footer-mobile, .sticky .logo .header-mobile, .navbar,.prices-mob,.pricing-cards-mob{
