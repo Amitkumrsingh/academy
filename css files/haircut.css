@@ -1160,6 +1160,9 @@ margin-bottom: 8px;
 .model-body select{
     background: #012D36;
 }
+.text-area{
+        min-width: 350px;
+    }
 
 .modal-body input:focus{
     outline: none!important;

@@ -1617,6 +1617,9 @@ margin-bottom: 8px;
     border-bottom: 1px solid #FCDA00;
 }
 
+.text-area{
+        min-width: 350px;
+    }
 .letstalk-btn-submit {
     padding: 8px 16px;
     background-color: #FFF;
@@ -1688,6 +1691,7 @@ margin-bottom: 8px;
     }
     .text-area{
         padding: 10px 12px;
+        min-width: 350px;
     }
 
     .navbar{
