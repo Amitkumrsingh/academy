@@ -1233,6 +1233,8 @@ margin-bottom: 8px;
 
     .modal-body p {
          margin-top: 10px;
+          padding-bottom: 30px;
+    }
     }
     .text-area{
         padding: 10px 12px;
