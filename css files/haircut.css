@@ -1234,6 +1234,9 @@ margin-bottom: 8px;
     .modal-body p {
          margin-top: 10px;
     }
+    .text-area{
+        padding: 10px 12px;
+    }
 
     .navbar{
         display: flex;
