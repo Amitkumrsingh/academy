@@ -31,7 +31,7 @@ body {
 .sticky {
     position: fixed;
     top: 0;
-        left: 0;
+    left: 0;
         right: 0;
         margin: 0;
         padding: 0;
@@ -55,6 +55,7 @@ body {
     margin: 0px 0px 0px 50px;
 
 }
+
 .sticky .menu {
     padding: 0px 50px 0px 0px;
     margin: 0px;
@@ -116,6 +117,7 @@ body {
     padding: 34px 0px 0px 12px;
 
 }
+
 .logo-mobile-text p:nth-child(1) {
     color: #000;
     font-family: Montserrat;
@@ -125,6 +127,7 @@ body {
     margin-bottom: 6px;
 
 }
+
 .logo-mobile-text p:nth-child(2) {
     color: #000;
     font-family: Montserrat;
@@ -208,6 +211,7 @@ body {
     line-height: normal;
 
 }
+
 .menu li:nth-child(1) a {
     color: #000;
 }
@@ -248,7 +252,7 @@ body {
 /* nift landing start */
 .nift-landing {
     background: url("../bigsize-assets/Layer_1 (2).webp") left bottom/70vh no-repeat #E9E9E6;
-        min-height: 600px;
+    min-height: 600px;
     padding: 0px 100px 10px 100px;
     display: flex;
     flex-direction: row;
@@ -270,7 +274,7 @@ body {
     font-style: italic;
     font-weight: 900;
     line-height: 76px;
-        /* 92.683% */
+    /* 92.683% */
     margin-bottom: 10px;
 }
 
@@ -335,7 +339,7 @@ body {
 
 .career-counseling-form {
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
     width: 264px;
     height: auto;
     flex-shrink: 0;
@@ -344,7 +348,7 @@ body {
 
 .career-counseling-container-footer-form {
     border-radius: 25px;
-        padding: 15px 10px 10px 5px;
+    padding: 15px 10px 10px 5px;
         margin: 0;
         justify-content: center;
         align-items: center;
@@ -355,7 +359,7 @@ body {
 
 .career-counseling-container .footer-form button:hover {
     background-color: #387A5B;
-        color: #000;
+    color: #000;
         border-bottom: 4px solid #fff
     }
 
@@ -371,7 +375,7 @@ body {
 
 .career-counseling-container-form .right-div {
     justify-content: center;
-        align-items: center;
+    align-items: center;
         text-align: center
 }
 
@@ -385,7 +389,7 @@ body {
     font-weight: 500;
     line-height: normal;
     margin-bottom: 12px;
-        border: none;
+    border: none;
         border-radius: 10px;
     background: #FFF;
     width: 234px;
@@ -400,14 +404,14 @@ body {
 .career-counseling-container-form button {
     margin-top: 5px;
     background-color: #000;
-        color: #FFF;
+    color: #FFF;
     font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     cursor: pointer;
-        border-radius: 10px;
+    border-radius: 10px;
         border: none;
     width: 220px;
     height: 40px;
@@ -416,7 +420,7 @@ body {
 
 .career-counseling-container-form button:hover {
     background-color: #fff;
-        color: #000;
+    color: #000;
     }
 
 .need-a-friend {
@@ -444,7 +448,7 @@ body {
     line-height: normal;
     text-decoration: none;
     padding: 5px 20px;
-        border-radius: 20px;
+    border-radius: 20px;
         border: none;
 }
 
@@ -478,7 +482,7 @@ body {
 .get-highly-effective-txt p:nth-child(1) {
     font-family: Montserrat;
     font-size: 52px;
-        font-style: normal;
+    font-style: normal;
         font-weight: 900;
         line-height: normal;
         background: linear-gradient(90deg, #FFDF86 0%, #E8E1CD 76%, #AF8305 100%);
@@ -490,11 +494,11 @@ body {
 .get-highly-effective-txt p:nth-child(2) {
     color: #FFF;
     font-family: Montserrat;
-        font-size: 16px;
+    font-size: 16px;
         font-style: normal;
         font-weight: 500;
     line-height: 24px;
-        /* 150% */
+    /* 150% */
 }
 
 
@@ -533,6 +537,7 @@ body {
     gap: 20px;
     padding: 10px;
 }
+
 .highest-selection p {
     color: #FFF;
     font-family: Manrope;
@@ -540,7 +545,7 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: 28px;
-        /* 140% */
+    /* 140% */
 }
 
 .almuni-bullet-point {
@@ -550,6 +555,7 @@ body {
 .almuni-bullet-point ul {
     list-style: none;
 }
+
 .almuni-bullet-point ul li {
     color: #FFF;
     font-family: Montserrat;
@@ -557,7 +563,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 21px;
-        /* 140% */
+    /* 140% */
         margin-bottom: 10px;
 }
 
@@ -580,6 +586,7 @@ body {
     margin-top: 10px;
 
 }
+
 .enquiry-btn button img {
     margin-left: 10px;
 }
@@ -804,7 +811,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-        /* 150% */
+    /* 150% */
 
 }
 
@@ -1026,10 +1033,11 @@ body {
     font-weight: 900;
     line-height: normal;
 }
+
 .happy-words-text h4 {
     color: #000;
     font-family: Montserrat;
-        font-size: 24px;
+    font-size: 24px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -1043,7 +1051,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 29px;
-        /* 181.25% */
+    /* 181.25% */
 }
 
 .happy-words-text p strong {
@@ -1102,6 +1110,7 @@ body {
     padding: 74px 225px 0px 225px;
     gap: 125px;
 }
+
 .messy-hairs-img img {
     margin-bottom: -4px;
 }
@@ -1344,6 +1353,7 @@ textarea:focus {
     border: none;
     margin-left: 50px;
 }
+
 .submit-div button:hover {
     background: #FCDA00;
     color: #000;
@@ -1448,7 +1458,7 @@ textarea:focus {
 .footer-logo img {
     width: 263px;
     height: 98px;
-        flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 
@@ -1457,6 +1467,7 @@ textarea:focus {
     height: 203px;
     flex-shrink: 0;
 }
+
 .logo-txt p {
     color: #FFF;
     font-family: Montserrat;
@@ -1481,7 +1492,7 @@ textarea:focus {
     font-style: normal;
     font-weight: 500;
     line-height: 130%;
-        /* 13px */
+    /* 13px */
     letter-spacing: 0.4px;
     text-transform: uppercase;
     margin-bottom: 8px;
@@ -1495,7 +1506,7 @@ textarea:focus {
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
-        /* 24px */
+    /* 24px */
     letter-spacing: -0.4px;
     margin-bottom: 8px;
 
@@ -1508,7 +1519,7 @@ textarea:focus {
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
-        /* 24px */
+    /* 24px */
     letter-spacing: -0.4px;
     text-decoration: none;
 
@@ -1521,7 +1532,7 @@ textarea:focus {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-        /* 19.6px */
+    /* 19.6px */
     margin-bottom: 25px;
 }
 
@@ -1532,18 +1543,18 @@ textarea:focus {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-        /* 19.6px */
+    /* 19.6px */
     margin-bottom: 23px;
 }
 
 .footer-div-2 p:nth-of-type(4) {
     color: #D4D5D9;
     font-family: Inter;
-        font-size: 20px;
+    font-size: 20px;
         font-style: normal;
         font-weight: 500;
     line-height: 120%;
-        /* 24px */
+    /* 24px */
         letter-spacing: -0.4px;
         margin-bottom: 8px;
 }
@@ -1561,7 +1572,7 @@ textarea:focus {
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
-        /* 13px */
+    /* 13px */
     margin-left: 35px;
 }
 
@@ -1603,6 +1614,7 @@ textarea:focus {
     font-weight: 200;
     cursor: pointer;
 }
+
 .modal-header h1 {
     justify-content: center;
     align-items: center;
@@ -1675,6 +1687,7 @@ textarea:focus {
     font-size: 16px;
     color: #FFF !important;
 }
+
 .modal-body p a {
     color: #FFF;
     text-decoration: none;
@@ -1682,7 +1695,8 @@ textarea:focus {
 }
 
 @media screen and (min-width: 601px) {
-.nift-landing-mobile,
+
+    .nift-landing-mobile,
     .get-highly-effective-mobile,
     .ranks-mobile-cards,
     .rankers-mobile,
@@ -1695,15 +1709,16 @@ textarea:focus {
     .navbar {
         display: none;
     }
-.course-menu-angle-down {
-    display: none;
-}
+
+        .course-menu-angle-down {
+            display: none;
+        }
 }
 
 @media screen and (max-width: 600px) {
 
     .header,
-        .nift-landing,
+    .nift-landing,
         .get-highly-effective,
         .roarring-ranks,
         .ranks-txt,
@@ -1758,9 +1773,10 @@ textarea:focus {
 
     .modal-body p {
         margin-top: 10px;
-            padding-bottom: 30px;
+        padding-bottom: 30px;
     }
-.text-area {
+
+        .text-area {
         padding: 10px 12px;
         min-width: 350px;
     }
@@ -1778,7 +1794,8 @@ textarea:focus {
         flex-direction: row;
         gap: 18px;
     }
-.navbar-logo img {
+
+        .navbar-logo img {
         width: 134px;
         height: 49.325px;
         flex-shrink: 0;
@@ -1815,7 +1832,7 @@ textarea:focus {
 
     .menu-toggle {
         display: block;
-            cursor: pointer;
+        cursor: pointer;
             justify-content: end;
             align-items: end;
             text-align: end;
@@ -1826,7 +1843,7 @@ textarea:focus {
 
     .bar {
         width: 30px;
-            height: 3px;
+        height: 3px;
             background-color: #000;
             margin: 5px 0
         }
@@ -1834,7 +1851,7 @@ textarea:focus {
 
     .mobileonly {
         position: -webkit-sticky;
-            /* For Safari */
+        /* For Safari */
             position: sticky;
             /* For most modern browsers */
         top: 0px;
@@ -1847,7 +1864,7 @@ textarea:focus {
         .sticky-mob {
         position: fixed;
         top: 0;
-            left: 0;
+        left: 0;
             right: 0;
         margin: 0;
         padding: 0;
@@ -1862,7 +1879,8 @@ textarea:focus {
         .sticky-mob .navbar-txt p:nth-child(1) {
         display: none;
     }
-.sticky-mob .navbar-txt p:nth-child(2) {
+
+        .sticky-mob .navbar-txt p:nth-child(2) {
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -1889,7 +1907,7 @@ textarea:focus {
 
     .sticky-mob .menu-toggle {
         display: block;
-            cursor: pointer;
+        cursor: pointer;
             justify-content: end;
             align-items: end;
             text-align: end;
@@ -1900,13 +1918,13 @@ textarea:focus {
 
     .menu-mobile {
         display: none;
-            padding: 0;
+        padding: 0;
             background-color: #FFF
         }
 
     .menu-mobile.active {
         display: flex;
-            background-color: #FFF;
+        background-color: #FFF;
             color: #000;
             flex-direction: column;
             /* width: 100%; */
@@ -1922,7 +1940,7 @@ textarea:focus {
 
     .menu-toggle.active {
         background-color: transparent
-        }
+    
 
         .menu-toggle.active .bar:nth-child(2) {
             opacity: 0
@@ -1946,7 +1964,7 @@ textarea:focus {
 
     .menu-mobile li a {
         color: #000;
-            padding: 5px;
+        padding: 5px;
             margin-left: 10px;
             text-decoration: none;
         }
@@ -1957,7 +1975,7 @@ textarea:focus {
 
         .toggle-bar {
         display: block;
-            /* Show toggle bar for mobile */
+        /* Show toggle bar for mobile */
             cursor: pointer;
             color: #fff;
         }
@@ -1998,7 +2016,7 @@ textarea:focus {
         font-style: italic;
         font-weight: 900;
         line-height: 50px;
-            /* 104.167% */
+        /* 104.167% */
         padding-right: 39px;
         padding-bottom: 13px;
     }
@@ -2042,7 +2060,7 @@ textarea:focus {
             flex-direction: row;
             background-color: #E9E9E6;
         margin: -5px 10px 20px 10px;
-            text-align: center;
+        text-align: center;
             justify-content: center;
             align-items: center;
         }
@@ -2175,7 +2193,7 @@ textarea:focus {
             font-style: normal;
             font-weight: 500;
         line-height: 24px;
-            /* 150% */
+        /* 150% */
             margin-bottom: 15px;
             padding: 15px;
 
@@ -2222,7 +2240,7 @@ textarea:focus {
             font-style: normal;
             font-weight: 800;
         line-height: 28px;
-            /* 140% */
+        /* 140% */
 
     
 
@@ -2241,7 +2259,7 @@ textarea:focus {
             font-style: normal;
             font-weight: 500;
         line-height: 21px;
-            /* 140% */
+        /* 140% */
             margin-bottom: 20px;
             margin-left: 20px;
         }
@@ -2304,10 +2322,11 @@ textarea:focus {
             justify-content: center;
             align-items: center;
         }
-.get-highly-effective-btn-mobile button:hover {
-    background: #387A5B;
-    color: #000;
-}
+
+        .get-highly-effective-btn-mobile button:hover {
+            background: #387A5B;
+            color: #000;
+        }
 
         .get-highly-effective-btn-mobile button a {
             color: #000;
@@ -2330,7 +2349,7 @@ textarea:focus {
         .ranks-mobile-cards {
             display: grid;
         grid-template-columns: repeat(2, 1fr);
-            margin: 10px;
+        margin: 10px;
             text-align: center;
             justify-content: center;
             align-items: center;
@@ -2403,14 +2422,15 @@ textarea:focus {
             margin-bottom: 22px;
             margin-left: 10px;
         }
-.offer-mobile p {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
+
+        .offer-mobile p {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
         line-height: 24px;
-            /* 160% */
+        /* 160% */
             text-align: left;
             margin-bottom: 25px;
             margin-left: 10px;
@@ -2697,7 +2717,7 @@ textarea:focus {
             font-style: normal;
             font-weight: 500;
         line-height: 130%;
-            /* 13px */
+        /* 13px */
             letter-spacing: 0.4px;
             text-transform: uppercase;
             margin-bottom: 8px;
@@ -2712,7 +2732,7 @@ textarea:focus {
             font-style: normal;
             font-weight: 500;
         line-height: 120%;
-            /* 24px */
+        /* 24px */
             letter-spacing: -0.4px;
             margin-bottom: 8px;
             margin-top: 8px;
@@ -2726,7 +2746,7 @@ textarea:focus {
             font-style: normal;
             font-weight: 500;
         line-height: 120%;
-            /* 24px */
+        /* 24px */
             letter-spacing: -0.4px;
             text-decoration: none;
 
@@ -2739,7 +2759,7 @@ textarea:focus {
             font-style: normal;
             font-weight: 400;
         line-height: 140%;
-            /* 19.6px */
+        /* 19.6px */
             margin-bottom: 25px;
 
     
@@ -2751,7 +2771,7 @@ textarea:focus {
             font-style: normal;
             font-weight: 400;
         line-height: 140%;
-            /* 19.6px */
+        /* 19.6px */
             margin-bottom: 23px;
         }
 
@@ -2762,7 +2782,7 @@ textarea:focus {
             font-style: normal;
             font-weight: 500;
         line-height: 120%;
-            /* 24px */
+        /* 24px */
             letter-spacing: -0.4px;
             margin-bottom: 8px;
         }
