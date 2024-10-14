@@ -860,6 +860,142 @@ body {
 
 
 
+/* .why-madschool {
+    display: flex;
+    flex-direction: row;
+    border-radius: 35px;
+    background: #F1F1F1;
+    margin: 0px 20px 15px 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.why-mad-school-img {
+    margin: 30px 30px 10px 50px;
+}
+
+
+.why-madschool-text-and-card {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 80px 30px 30px;
+}
+
+
+.why-mad-text {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.why-mad-text h1 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.why-mad-text p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.why-mad-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.why-mad-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    max-width: 211px;
+    max-height: 205px;
+    transition: box-shadow 0.3s ease;
+    background: #FFF;
+
+}
+
+.why-mad-card:nth-child(1) {
+    border-radius: 54px 0px 0px 0px;
+
+}
+
+.why-mad-card:nth-child(6) {
+    border-radius: 0px 0px 54px 0px;
+
+}
+
+.why-mad-card h2 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.why-mad-card:hover {
+    box-shadow: 0 0 20px rgba(212, 212, 212, 2.0);
+    z-index: 1000000;
+}
+
+.why-mad-card:nth-child(6) {
+    background: #FCDA00;
+    padding: 30px 50px;
+}
+
+.why-mad-card:nth-child(6) h1 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.why-mad-card h1 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px 4px 5px 4px;
+
+}
+
+.why-mad-card p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.let-go-mad {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+} */
 /* Why Mad School */
 
 .why-madschool {
@@ -884,7 +1020,7 @@ body {
 .why-madschool-text-and-card {
     display: flex;
     flex-direction: row;
-    margin: 0px 0px 0px 30px;
+    margin: 50px 0px 0px 30px;
 }
 
 
@@ -917,8 +1053,8 @@ body {
 .why-mad-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background: #FFF;
-    margin: 0px 150px 40px 30px;
+    background: #F1F1F1;
+        margin: 0px 180px 40px 80px;
 }
 
 .why-mad-card {
@@ -927,20 +1063,27 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+    background: #FFF;
     padding: 30px;
     max-width: 211px;
     max-height: 205px;
     transition: box-shadow 0.3s ease;
+
 }
 
 .why-mad-card:hover {
     box-shadow: 0 0 20px rgba(212, 212, 212, 2.0);
     z-index: 1000000;
 }
+.why-mad-card:nth-child(1) {
+    border-radius: 54px 0px 0px 0px;
+
+}
 
 .why-mad-card:nth-child(6) {
     background: #06B7A7;
     padding: 30px 50px;
+    border-radius: 0px 0px 54px 0px;
 }
 
 .why-mad-card:nth-child(6) h1 {
