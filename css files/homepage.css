@@ -15,7 +15,24 @@ body {
     src: url('/luthon_southard_script/Luthon\ Southard\ Script.ttf') format('truetype');
 }
 
+ #scrollToTopBtn {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     background-color: transparent;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     padding: 10px 20px;
+     font-size: 16px;
+     cursor: pointer;
+     display: none;
+     /* Hidden by default */
+ }
 
+ #scrollToTopBtn:hover {
+     background-color: transparent;
+ }
 
 
 .header {

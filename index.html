@@ -107,14 +107,14 @@ men's salon near me">
   </header>
 
 
-<div class="nift-landing">
+<div class="nift-landing" id="slide1">
     <div class="space">
 
     </div>
     <div class="left-form">
 
 
-      <div class="career-counseling-container-form" id="slide1">
+      <div class="career-counseling-container-form" >
             <div class="career-counseling-container-footer-form">
             <form class="career-counseling-form" id="contact-form-landing" style="align-items: center;justify-content: center; text-align: center;">
                  <div class="form-caption" style="padding-bottom: 15px; margin-top: 0px;">
@@ -470,7 +470,7 @@ Hyderabad, Telangana, 500034</p>
 <h3>Opening hours</h3>
 <p>10am—7pm</p>
 </div>
-<div class="footer-div-3">
+<div class="footer-div-3" id="scrollToTopBtn" onclick="scrollToTop()">
   <svg xmlns="http://www.w3.org/2000/svg" width="162" height="143" viewBox="0 0 162 143" fill="none">
   <circle cx="71.5" cy="71.5" r="71.5" fill="#D4D5D9"/>
   <path d="M72 95L72 49M72 49L52 68.7143M72 49L92 68.7143" stroke="#18191B" stroke-width="1.5"/>
@@ -488,7 +488,7 @@ Hyderabad, Telangana, 500034</p>
 <!-- Mobile Version start -->
 
 <!-- Header Start-->
-<header class="navbar">
+<header class="navbar" id="slide1">
   <div class="navbar-not-fixed">
     <div class="navbar-logo">
     <img loading="lazy" src="./bigsize-assets/Rectangle 39363.png" alt="BILIONERA Logo">
@@ -803,13 +803,12 @@ Hyderabad, Telangana, 500034</p>
 <h3>Opening hours</h3>
 <p>10am—7pm</p>
 </div>
-<div class="footer-div-3-mob" >
-  <a href="#slide1">
+<div class="footer-div-3-mob" id="scrollToTopBtn" onclick="scrollToTop()" >
   <svg xmlns="http://www.w3.org/2000/svg" width="86" height="86" viewBox="0 0 86 86" fill="none">
   <circle cx="43" cy="43" r="43" fill="#D4D5D9"/>
   <path d="M43.3007 57.1331L43.3007 29.4688M43.3007 29.4688L31.2727 41.3249M43.3007 29.4688L55.3286 41.3249" stroke="#18191B" stroke-width="1.5"/>
 </svg>
-</a>
+
 
 
 <p>© 2024 — Copyright</p>
@@ -1012,6 +1011,29 @@ function submitForm(event) {
                     });
             });
 
+        }
+    </script>
+
+
+<script>
+        // Get the button
+        var mybutton = document.getElementById("scrollToTopBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        };
+
+        // When the user clicks on the button, scroll to the top of the document
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // Adds smooth scrolling
+            });
         }
     </script>
 
