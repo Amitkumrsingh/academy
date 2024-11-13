@@ -993,7 +993,7 @@ function submitForm(event) {
                         redirectToError();
                     });
             });
-             document.getElementById('contact-form-2').addEventListener('submit', function(event) {
+             document.getElementById('contact-form-map-below').addEventListener('submit', function(event) {
                 event.preventDefault();
                 emailjs.sendForm('service_hjch4rn', 'template_faxkn4o', this)
                     .then(function() {
@@ -1011,15 +1011,7 @@ function submitForm(event) {
                         redirectToError();
                     });
             });
-              document.getElementById('contact-form-mobile-1').addEventListener('submit', function(event) {
-                event.preventDefault();
-                emailjs.sendForm('service_hjch4rn', 'template_faxkn4o', this)
-                    .then(function() {
-                        redirectToThankYou();
-                    }, function(error) {
-                        redirectToError();
-                    });
-            });
+
         }
     </script>
 
