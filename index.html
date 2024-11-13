@@ -479,7 +479,7 @@ Hyderabad, Telangana, 500034</p>
 
 <p>© 2024 — Copyright</p>
 </div>
-
+@
 </div>
 
 
@@ -535,7 +535,7 @@ Hyderabad, Telangana, 500034</p>
        </div>
        <div class="career-counseling-container-form-mobile">
             <div class="career-counseling-container-footer-form-mobile">
-            <form class="career-counseling-form-mobile" id="contact-form-landing" style="align-items: center;justify-content: center; text-align: center;">
+            <form class="career-counseling-form-mobile" id="contact-form-landing-mobile" style="align-items: center;justify-content: center; text-align: center;">
               <div class="form-caption" style="padding-bottom: 15px; margin-top: 0px;">
               <p style="color: #FFF;
                 font-family: Montserrat;
@@ -955,6 +955,73 @@ function submitForm(event) {
 }
 
 </script>
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+ <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('SeCgarEYlq11D5LVk');
+        })();
+    </script>
+    <script type="text/javascript">
+       function redirectToThankYou() {
+         window.location.href = 'thankyou.html';
+    }
+  function redirectToError() {
+    window.location.href = 'error.html';
+  }
+        window.onload = function() {
+            document.getElementById('contact-form-landing').addEventListener('submit', function(event) {
+                event.preventDefault();
+                emailjs.sendForm('service_hjch4rn', 'template_faxkn4o', this)
+                    .then(function() {
+                        redirectToThankYou();
+                    }, function(error) {
+                        redirectToError();
+                    });
+            });
+
+             document.getElementById('contact-form-landing-mobile').addEventListener('submit', function(event) {
+                event.preventDefault();
+                emailjs.sendForm('service_hjch4rn', 'template_faxkn4o', this)
+                    .then(function() {
+                        redirectToThankYou();
+                    }, function(error) {
+                        redirectToError();
+                    });
+            });
+             document.getElementById('contact-form-2').addEventListener('submit', function(event) {
+                event.preventDefault();
+                emailjs.sendForm('service_hjch4rn', 'template_faxkn4o', this)
+                    .then(function() {
+                        redirectToThankYou();
+                    }, function(error) {
+                        redirectToError();
+                    });
+            });
+             document.getElementById('contact-form-3').addEventListener('submit', function(event) {
+                event.preventDefault();
+                emailjs.sendForm('service_hjch4rn', 'template_faxkn4o', this)
+                    .then(function() {
+                        redirectToThankYou();
+                    }, function(error) {
+                        redirectToError();
+                    });
+            });
+              document.getElementById('contact-form-mobile-1').addEventListener('submit', function(event) {
+                event.preventDefault();
+                emailjs.sendForm('service_hjch4rn', 'template_faxkn4o', this)
+                    .then(function() {
+                        redirectToThankYou();
+                    }, function(error) {
+                        redirectToError();
+                    });
+            });
+        }
+    </script>
 
   <script async src="nift_web_files/jquery.js"></script>
   <script async src="nift_web_files/bootstrap.min.js"></script>
