@@ -268,14 +268,13 @@ body {
 
 /* nift landing start */
 .nift-landing {
-    background: url("../bigsize-assets/Layer_1 (2).webp") left bottom/70vh no-repeat #E9E9E6;
+    background: url("../bigsize-assets/44Screenshot\ 2025-01-25\ at\ 8.41.34\ PM.png") left bottom/60vh no-repeat #E9E9E6;
     min-height: 600px;
     padding: 0px 100px 10px 100px;
     display: flex;
     flex-direction: row;
     margin: 0px 20px 0px 20px;
     border-radius: 35px;
-
 }
 
 .grab-text {
@@ -2990,14 +2989,13 @@ textarea:focus {
     }
 
     .nift-landing {
-        background: url("../bigsize-assets/Layer_1 (2).webp") left bottom/70vh no-repeat #E9E9E6;
+        background: url("../bigsize-assets/44Screenshot\ 2025-01-25\ at\ 8.41.34\ PM.png") left bottom/60vh no-repeat #E9E9E6;
         min-height: 830px;
         padding: 0px 100px 10px 100px;
         display: flex;
         flex-direction: row;
         margin: 0px 20px 0px 20px;
         border-radius: 35px;
-
     }
 
     .grab-text {
