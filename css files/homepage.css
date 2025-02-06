@@ -286,10 +286,10 @@ body {
     color: #144F42;
     text-align: right;
     font-family: Montserrat;
-    font-size: 60px;
+    font-size: 38px;
     font-style: italic;
     font-weight: 900;
-    line-height: 76px;
+    line-height: 42px;
     /* 92.683% */
     margin-bottom: 10px;
 }
@@ -308,7 +308,8 @@ body {
 .grab-text p:nth-child(1) {
     color: #000;
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 18px;
+        line-height: 21.78px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -801,6 +802,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+
 }
 
 .ranks-txt h1 {
@@ -811,7 +813,7 @@ body {
     font-size: 74px;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
+    line-height: 74px;
     background: linear-gradient(90deg, #EEC044 2%, #FF8686 22.08%, #F7DC2A 36.77%, #FC9602 52.93%, #FC9602 66.16%, #EEC044 83.79%, #00B9A4 99.95%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -820,13 +822,14 @@ body {
 }
 
 .ranks-txt p {
+    padding: 0% 18%;
     color: #000;
     text-align: center;
     font-family: Montserrat;
-    font-size: 16px;
+    font-size: 38px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 42px;
     /* 150% */
 
 }
